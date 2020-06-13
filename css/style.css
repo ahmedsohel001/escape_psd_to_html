@@ -1,0 +1,482 @@
+@font-face {
+	src: url(../fonts/transat_bold.ttf);
+	font-family: transat_bold;
+}
+@font-face {
+	src: url(../fonts/transat_light.ttf);
+	font-family: transat_light;
+}
+@font-face {
+	src: url(../fonts/transat_medium.ttf);
+	font-family: transat_medium;
+}
+@font-face {
+	src: url(../fonts/transat_standard.ttf);
+	font-family: transat_standard;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+/*Header Strat*/
+.header-area {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/header-bg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+}
+
+.header-top {
+	overflow: hidden;
+	padding: 45px 0;
+}
+
+.logo-area {
+	width: 20%;
+	float: left;
+}
+
+.logo-area img {}
+
+.menu-area {
+	width: 75%;
+	float: right;
+}
+
+.menu-area ul {
+	float: right;
+}
+
+.menu-area ul li {
+	list-style: none;
+	float: left;
+}
+
+.menu-area ul li a {
+	display: inline-block;
+	font-family: transat_medium;
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 25px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+}
+
+.menu-area ul li:hover a {
+	border-bottom: 2px solid #fff;
+	transition: .8s;
+}
+
+.menu-area ul li:last-child a {
+	margin-right: 0;
+}
+
+.header-content-area {
+	text-align: center;
+	padding: 10em 0;
+}
+.header-content-area h4 {
+	font-family: transat_light;
+	font-weight: 300;
+	font-size: 32px;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.header-content-area h1 {
+	font-family: transat_bold;
+	font-weight: 700;
+	font-size: 66px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.header-content-area button {
+	font-family: transat_bold;
+	font-weight: 700;
+	font-size: 23px;
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 30px 0;
+	cursor: pointer;
+}
+
+.header-content-area button:hover {
+	background-color: #fff;
+	color: #000;
+	transition: .8s;
+}
+
+.header-content-area button:focus {
+	outline: none;
+}
+/*Header End*/
+
+/* Development Start */
+.development {}
+.development-area {
+	overflow: hidden;
+	padding: 5em 0;
+}
+.development-content {
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content-title {
+	font-family: transat_bold;
+	font-weight: 700;
+	font-size: 60px;
+	color: #222;
+	padding: 20px 0;
+}
+.content-title span {
+	font-family: transat_light;
+	font-weight: 300;
+}
+.content-description {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 18px;
+	color: #777777;
+	padding: 10px 0;
+}
+.development-logo {
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+}
+.development-logo img {}
+
+/* Development End */
+
+/* Branding Start */
+.branding {
+	background-color: #fafafa;
+}
+.branding-area {
+	overflow: hidden;
+	padding: 5em 0;
+}
+.branding-logo {
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.branding-logo img {}
+.branding-content {
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Branding End */
+
+/*Service Start*/
+.service {
+	padding: 5em 0;
+}
+.service-area {
+	overflow: hidden;
+}
+.service-items {
+	width: 40%;
+	float: left;
+	padding-bottom: 1.5em;
+}
+.service-items:nth-child(even) {
+	float: right;
+}
+.icon-area {
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+}
+.icon-area i {
+	width: 30px;
+    height: 30px;
+    text-align: center;
+	font-size: 25px;
+    color: #fff;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+.text-area {
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+.text-area h4 {
+	font-family: transat_medium;
+	font-weight: 500;
+	font-size: 22px;
+	color: #222;
+	padding-bottom: 5px;
+}
+.text-area p {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 18px;
+	color: #777;
+	line-height: 1.25;
+}
+/*Service End*/
+
+/*Client Start*/
+.client {
+	background-color: #fafafa;
+	padding: 5em 0;
+}
+.client-area {}
+.section-title-area {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.section-title-area h1 {
+	padding: 0;
+}
+.section-title-area p {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 22px;
+	color: #777;
+}
+.client-comment-area {
+	margin: 3em 0;
+}
+.img-area {
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.img-area img {
+	width: 70%;
+	border-radius: 50%;
+}
+.text-comment {
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.box-area {
+	padding: 5em 8em;
+    background: #fff;
+    border: 2px solid #F2F2F2;
+}
+.box-area p {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.25;
+	color: #777;
+	padding-bottom: 5px;
+}
+.box-area a {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: none;
+	color: #7690c5;
+}
+.fl-right {
+	text-align: right;
+}
+/*Client End*/
+
+/*Partner Start*/
+.partner {
+	padding: 3em 0;
+}
+.partner-logo {
+	text-align: center;
+}
+.partner-logo a{
+	display: inline-block;
+	width: 24%;
+}
+.partner-logo img {
+	max-width: 100%;
+}
+/*Partner end*/
+
+/*Team Start*/
+.team {
+	background-color: #222;
+	padding: 5em 0;
+}
+.team-area {}
+.section-title-area {}
+.team-area .section-title-area h1 {
+	color: #fff;
+}
+.section-title-area p {}
+.section-body-area {
+	padding: 3em 0;
+}
+.section-items {
+	text-align: center;
+}
+.single-item {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+.team-img-area {}
+.team-img-area img {
+	width: 50%;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.team-title-area {
+	margin: 10px 0;
+	color: #fff;
+}
+.team-title-area h3 {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 22px;
+}
+.team-title-area h5 {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 5px 0;
+}
+.team-icon-area {}
+.team-icon-area a {
+	padding: 0 10px;
+    color: #fff;
+    font-size: 25px;
+}
+.team-icon-area a i {
+	border: 1px solid #fff;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+}
+.team-icon-area a i:hover {
+	background-color: #fff;
+	color: #222;
+	transition: .8s;
+}
+.section-bottom-area {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+.section-bottom-area p {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 20px;
+	color: #777;
+}
+/*Team End*/
+
+/*Contact Start*/
+.contact {
+	background-color: #7690c5;
+	padding: 4em 0;
+}
+.contact-area {
+	overflow: hidden;
+}
+.contact-text-area {
+	width: 45%;
+	float: left;
+	color: #fff;
+}
+.contact-title-area {}
+.contact-title-area h1 {
+	color: #fff;
+    padding-top: 0;
+}
+.contact-title-area p {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 18px;
+}
+.social-contact-area {
+	padding-top: 2em;
+}
+.social-single-item {
+	width: 45%;
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 2em;
+}
+.social-icon-area {
+	float: left;
+    width: 15%;
+}
+.social-icon-area i {
+	font-size: 25px;
+}
+.social-text-area {
+	float: left;
+    width: 80%;
+}
+.social-text-area a {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+.contact-form-area {
+	width: 45%;
+	float: right;
+}
+.contact-form-area form {}
+.form-group {
+	margin-top: 12px;
+}
+.form-control {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 18px;
+	color: #bbbbbb;
+	width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-control:focus {
+	outline: none;
+}
+/*Contact End*/
+
+/*Footer Start*/
+.footer {
+	background-color: #7690c5;
+}
+.footer-content {
+	text-align: center;
+	padding: 2em 0;
+	border-top: 2px solid #87a0d2;
+}
+.footer-content p {
+	font-family: transat_standard;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+/*Footer End*/
